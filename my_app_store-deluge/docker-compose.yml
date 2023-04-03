@@ -7,7 +7,7 @@ services:
       APP_PORT: 8112
 
   server:
-    image: lscr.io/linuxserver/deluge:amd64-2.1.1
+    image: lscr.io/linuxserver/deluge:2.1.1@sha256:580afe15815aac87301d84ddcf97dc45aa89f5fd4b548c943534373dd8ae96b0
     environment:
       - PUID=1000
       - PGID=1000
