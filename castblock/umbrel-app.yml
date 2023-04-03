@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: myappstore-castblock
+id: my_app_store_castblock
 name: CastBlock
 tagline: Skip sponsor segments and ads in YouTube videos playing on a Chromecast.
 icon: https://svgshare.com/i/rg2.svg
