@@ -8,7 +8,6 @@ version: "0.1.1"
 port: '80'
 description: >-
   The impact of CastBlock on the CPU should be almost zero, and only a few dozen of Mo on the memory.
-
 developer: erdnaxeli
 website: https://github.com/erdnaxeli/castblock
 submitter: sashazykov

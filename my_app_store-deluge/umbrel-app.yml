@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: my_app_store-deluge
+name: Deluge
+tagline: Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
+icon: https://svgshare.com/i/rjR.svg
+category: Networking
+version: "4.5.2"
+port: '8112'
+description: >-
+  Deluge uses libtorrent in its backend and features multiple user-interfaces including: GTK+, web and console. It is designed using the client server model with a daemon process that handles all the bittorrent activity. The Deluge daemon is able to run on headless machines with the user-interfaces being able to connect remotely from any platform.
+developer: Deluge BitTorrent client Team
+website: https://deluge-torrent.org/
+submitter: sashazykov
+submission: https://github.com/sashazykov/umbrel-app-store
+repo: https://git.deluge-torrent.org/deluge
+support: https://dev.deluge-torrent.org/wiki/UserGuide
+gallery: []
+releaseNotes: >-
+  Fix missing trackers added via magnet
+  Fix handling magnets with tracker tiers
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "deluge"
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS

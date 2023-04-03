@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: my_app_store-deluge_server_1
+      APP_PORT: 8094
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    container_name: deluge
+    image: lscr.io/linuxserver/deluge:2.1.1@sha25:sha256:854bc01e2657d696c9f8a952b4761eb3489b8ac1761f2f8b184a3f4d2ee08b68
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - DELUGE_LOGLEVEL=error
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/data/storage/downloads:/downloads
+    ports:
+      - 8112:8112
+      - 6881:6881
+      - 6881:6881/udp
+    restart: on-failure
