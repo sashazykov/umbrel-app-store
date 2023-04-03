@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+
+  castblock:
+    network_mode: host
+    image: erdnaxeli/castblock
+    restart: unless-stopped

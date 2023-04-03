@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: castblock
+name: CastBlock
+tagline: Skip sponsor segments and ads in YouTube videos playing on a Chromecast.
+icon: https://svgshare.com/i/rg2.svg
+category: Media
+version: "1.0.0"
+port: 4000
+description: >-
+  The impact of CastBlock on the CPU should be almost zero, and only a few dozen of Mo on the memory.
+
+developer: erdnaxeli
+website: https://github.com/erdnaxeli/castblock
+submitter: sashazykov
+submission: https://github.com/sashazykov/umbrel-app-store
+repo: https://github.com/sashazykov/umbrel-app-store
+support: https://github.com/sashazykov/umbrel-app-store/issues
+gallery: []
+releaseNotes: >-
+  Initial release.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
