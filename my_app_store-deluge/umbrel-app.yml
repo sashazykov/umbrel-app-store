@@ -16,8 +16,8 @@ repo: https://git.deluge-torrent.org/deluge
 support: https://dev.deluge-torrent.org/wiki/UserGuide
 gallery: []
 releaseNotes: >-
-  Fix missing trackers added via magnet
-  Fix handling magnets with tracker tiers
+  - Fix missing trackers added via magnet
+  - Fix handling magnets with tracker tiers
 dependencies: []
 path: ""
 defaultUsername: "admin"
