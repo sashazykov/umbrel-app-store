@@ -4,8 +4,8 @@ services:
   app_proxy:
     environment:
       APP_HOST: my_app_store-deluge_server_1
-      APP_PORT: 8094
-      PROXY_AUTH_ADD: "false"
+      APP_PORT: 8112
+      PROXY_AUTH_ADD: "true"
 
   server:
     container_name: deluge
