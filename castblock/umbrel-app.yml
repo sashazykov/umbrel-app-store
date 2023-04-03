@@ -1,10 +1,11 @@
 manifestVersion: 1
-id: my_app_store_castblock
+id: my_app_store-castblock
 name: CastBlock
 tagline: Skip sponsor segments and ads in YouTube videos playing on a Chromecast.
 icon: https://svgshare.com/i/rg2.svg
 category: Media
 version: "1.0.0"
+port: 4000
 description: >-
   The impact of CastBlock on the CPU should be almost zero, and only a few dozen of Mo on the memory.
 
